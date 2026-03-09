@@ -1,0 +1,16 @@
+📦 sacco-portal (your repo)
+├── manage.py                ← root
+├── requirements.txt         ← root
+├── Procfile                 ← root
+├── sacco_portal/            ← folder inside root
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+└── members/                 ← folder inside root
+    ├── __init__.py
+    ├── models.py
+    ├── views.py
+    ├── urls.py
+    └── templates/
+        └── dashboard.html
